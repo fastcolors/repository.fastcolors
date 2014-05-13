@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon
-	id="repository.fastcolors"
-	name="Fastcolors repository"
-	version=“3.0.0”
-	provider-name="Fastcolors">
-	<extension point="xbmc.addon.repository"
-        name="Fastcolors Add-on Repository">
-		<info compressed="false">http://fastcolors.net/Repo/addons.xml</info> 
-		<checksum>http://fastcolors.net/Repo/addons.xml.md5</checksum> 
-		<datadir zip="true">http://fastcolors.net/Repo</datadir>  
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Fastcolors Repository</summary>
-		<description>Home of SiO2 Skin.</description>
-		<disclaimer>Have Fun</disclaimer>
+  <addon id="repository.fastcolors" name="Fastcolors Repo" version="3.0.0" provider-name="fastcolors">
+    <extension point="xbmc.addon.repository" name="Fastcolors Repo">
+    <info>http://fastcolors.net/Repo/addons.xml</info>
+    <checksum>http://fastcolors.net/Repo/addons.xml.md5</checksum>
+    <datadir zip="true">http://fastcolors.net/Repo</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+    <summary>Fastcolor Repository.</summary>
+		<description>Keep Up with latest developement of Sio2x.</description>
+		<disclaimer>Home of Sio2x.</disclaimer>
 		<platform>all</platform>
-	</extension>
-</addon>
+    </extension>
+  </addon>
